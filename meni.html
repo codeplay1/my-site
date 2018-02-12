@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+	<title>Kiriku M | Meni</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Fast food">
+	<meta name="keywords" content="brza hrana, novo milosevo, gril, knjiga utisaka">
+ 	<meta name="author" content="Maja Isakovic">
+ 	<link rel="icon" href="favicon/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+<body>
+	<!-- header (desktop size) -->
+    <header>
+        <!-- slider (for mobile size) -->
+      <div class="slide1">
+          <span class="open_slide">
+             <a href="#" onclick="openSideMenu()">
+                <svg width="30" height="30">
+                   <path d="M0,5 30,5" stroke="#CE1126" stroke-width="3"/>
+                   <path d="M0,14 30,14" stroke="#CE1126" stroke-width="3"/>
+                   <path d="M0,23 30,23" stroke="#CE1126" stroke-width="3"/>
+                </svg>
+             </a>
+          </span>
+       </div>
+       <!-- Side menu  -->
+       <div id="side_menu" class="side_nav">
+         <a href="#" id="close_btn" onclick="closeSideMenu()">&times;</a>
+         <a href="index.html"> Početna</a>
+         <a href="meni.html" style="color: #609191;"> Meni</a>
+         <a href="utisci.html"> Utisci</a>
+         <a href="kontakt.html"> Kontakt</a>
+       </div> 
+         <div class="container logo">
+               <h1>Kiriku M</h1>
+            <nav>
+               <ul>
+                  <li><a href="index.html">Pocetna</a></li>
+                  <li><a href="meni.html" style="color: #609191;">Meni</a></li>
+                  <li><a href="utisci.html">Utisci</a></li>
+                  <li><a href="kontakt.html">Kontakt</a></li>
+               </ul>
+            </nav>
+          </div>
+      </header>
+
+    <!--main-->
+    <main>
+
+      <!-- Meniji -->
+      <div class="menu_container container">
+        <!-- Rostilj -->
+        <div class="background_manu">
+          <div  class="center_barbique head">
+            <div class="left">
+              <p class="barbique head">Roštilj</p>
+            </div>
+            <div class="right">
+               <img src="../images/burger.png">
+            </div>
+          </div>
+              <p><span class="bold justify_barbique left">Pljeskavica mala</span><span class="gr">150g</span><span class="price right">170din</span></p>
+              <p><span class="bold justify_barbique left">Pljeskavica srednja</span><span class="gr">200g</span><span class="price right">220din</span></p>
+              <p><span class="bold justify_barbique left">Pljeskavica velika</span><span class="gr">250g</span><span class="price right">270din</span></p>
+              <p><span class="bold justify_barbique left">Punjena pljeskavica</span><span class="gr">250g</span><span class="price right">300din</span></p>
+              <p><span class="bold justify_barbique left">Gurmanska pljeskavica</span><span class="gr">250g</span><span class="price right">170din</span></p>   
+              <p><span class="bold justify_barbique left">Ćevapi 5kom</span><span class="gr">150g</span><span class="price right">170din</span></p>
+              <p><span class="bold justify_barbique left">Ćevapi 10kom</span><span class="gr">300g</span><span class="price right">320din</span></p>
+              <p><span class="bold justify_barbique left">Pileći batak</span><span class="gr">250g</span><span class="price right">220din</span></p>
+              <p><span class="bold justify_barbique left">Pileći batak + pomfrit</span><span class="gr">250g + 100g</span><span class="price right">300din</span></p>
+              <p><span class="bold justify_barbique left">Domaća kobasica</span><span class="gr">220g</span><span class="price right">200din</span></p>
+              <p><span class="bold justify_barbique left">Pomfrit</span><span class="gr">200g</span><span class="price right">150din</span></p>
+              <p><span class="bold justify_barbique left">Roštilj Mix</span><span class="gr">1kg</span><span class="price right">880din</span></p>
+          </div> 
+
+          <!-- Pizzas -->
+        <div class="background_manu">
+            <div  class="center_barbique head">
+                <div class="left">
+                  <p class="pizza head">Pizza</p>
+                </div>
+                <div class="right">
+                   <img src="../images/pizza_color.png">
+                </div>
+              </div>
+              
+            <p class="bold center_pizza">Kaprićoza</p>
+            <p class="center">(testo, pelat, šunka, sir)</p>
+            <p class="center cm">23cm <span class="price">170din</span></p>
+            <p class="center cm">30cm <span class="price">300din</span></p>
+            <p class="center cm">40cm <span class="price">550din</span></p>
+            <p class="bold center pizza_type">Meksikana</p>
+            <p class="center">(testo, pelat, šunka, sir, kulen, šampinjoni, masline)</p>
+            <p class="center cm">23cm <span class="price">190din</span></p>
+            <p class="center cm">30cm <span class="price">360din</span></p>
+            <p class="center cm">40cm <span class="price">650din</span></p>
+            <p class="bold center pizza_type">Kiriku</p>
+            <p class="center">(testo, pelat, šunka, pečenica, sir, šampinjoni, masline, jaje, pavlaka</p>
+            <p class="center cm">30cm <span class="price">400din</span></p>
+            <p class="center cm">40cm <span class="price">750din</span></p>
+        </div>
+      </div>
+
+      <!-- drugi deo -->
+        <div class="menu_container container">
+        <!-- Sendviči -->
+        <div class="background_manu">
+            <p class="head">Sendviči</p>
+            <img src="../images/sandwich (1).png"  style="float:right">
+              <p><span class="bold justify_barbique left">Index</span><span class="price right">220din</span></p>
+              <p><span class="bold justify_barbique left">Sendvič Šunka</span><span class="price right">130din</span></p>
+              <p><span class="bold justify_barbique left">Sendvič Kulen</span><span class="price right">140din</span></p>
+              <p><span class="bold justify_barbique left">Sendvič Pečenica</span><span class="price right">150din</span></p>
+              <p><span class="bold justify_barbique left">Tortilja</span><span class="small">(šunka, prilozi)</span><span class="price right">100din</span></p>
+              <!-- palacinke slane -->
+              <p class="head">Palačinke slane</p>
+              <img src="../images/pancake.png" style="float:right">
+              <p><span class="bold justify_barbique left">Royal</span><span class="small">(šunka, kulen, pečenica, sir, premaz)</span><span class="price right">220din</span></p>
+              <p><span class="bold justify_barbique left">Šunka</span><span class="small">(šunka, sir, premaz)</span><span class="price right">170din</span></p>
+              <p><span class="bold justify_barbique left">Kulen</span><span class="small">(kulen, sir, premaz)</span><span class="price right">180din</span></p>
+              <p><span class="bold justify_barbique left">Pečenica</span><span class="small">(pečenica, sir, premaz)</span><span class="price right">190din</span></p>
+          </div>
+
+          <!-- Dezerti -->
+        <div class="background_manu">
+            <p class="head">Dezerti</p>
+            <img src="../images/creme-caramel.png" style="float:right">
+              <p><span class="bold justify_barbique left">Baklava Orah</span><span class="price right">50din</span></p>
+              <p><span class="bold justify_barbique left">Baklava Višnja</span><span class="price right">50din</span></p>
+              
+              <!-- palacinke slane -->
+              <p class="head space">Palačinke slatke</p>
+              <img src="../images/pancakes.png" style="float:right">
+              <p><span class="bold justify_barbique left">Nutela</span><span class="price right">140din</span></p>
+              <p><span class="bold justify_barbique left">Nutela & plazma</span><span class="price right">150din</span></p>
+              <p><span class="bold justify_barbique left">Milka</span><span class="price right">180din</span></p>
+              <p><span class="bold justify_barbique left">Bakina</span><span class="small">(dzem)</span><span class="price right">110din</span></p>
+              <p><span class="bold justify_barbique left">Palačinka Švarcland</span><span class="price right">180din</span></p>
+          </div>
+      </div>        
+     
+      <!--Adresa, Radno Vreme i Social Media-->
+      <div id="about_and_socialmedia">
+        <div class="container flexi_about">
+           <!--adresa--> 
+           <address>     
+              <i class="center">Adresa</i> <br>
+              <i class="material-icons">location_on</i>  Trg palih heroja br.2<br>
+              <i class="material-icons">location_city</i>  Novo Miloševo<br>
+              <i class="material-icons">local_phone</i> <a href="tel:+381645652478" class="white"> 061/64-80-714</a><br>
+              <i class="material-icons">email</i>  kirikufastfood@gmail.com<br>
+           </address>
+           <!--radno vreme-->
+           <div class="open">
+              <i class="center">Radno vreme</i><br>
+              <i class="material-icons">done</i>  Ponedeljak 16h - 23h<br>
+              <i class="material-icons">done</i>  Utorak 16h - 23h<br>
+              <i class="material-icons">done</i>  Sreda 16h - 23h<br>
+              <i class="material-icons">done</i>  Cetvrtak 16h - 23h<br>
+              <i class="material-icons">done</i>  Petak 16h - 23h<br>
+              <i class="material-icons">done</i>  Subota 16h - 24h<br>
+              <i class="material-icons">clear</i>  Nedelja -zatvoreno-<br>
+           </div>
+           <!--social media icons-->
+           <div class="social_media_icons">
+              <div class="tooltip face">
+                 <a href="https://www.instagram.com/kiriku_m/" target="_blank" ><img src="images/insta_color.png" alt="instagram" title="Instagram"></a>
+                 <span class="tooltiptext hide">Pratite nas na instagramu</span>
+              </div>
+              <div class="tooltip insta">
+                 <a href="https://web.facebook.com/KirikuRS/" target="_blank" ><img src="images/face_color.png" alt="facebook" title="Facebook"></a>
+                 <span class="tooltiptext hide">Posetite nasu facebook stranicu</span>
+              </div>
+           </div>
+        </div>
+     </div>
+    </main>
+      <!--FOOTER-->
+      <footer>
+        <p>Maja Isakovic &copy; 2018</p>
+      </footer>	
+</body>
+</html>
